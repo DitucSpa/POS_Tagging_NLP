@@ -1,6 +1,6 @@
 # POS_Tagging_NLP
-Part-of-Speech (PoS) tagging is the task of labelling each word in a sentence with its appropriate part of speech; in the last years, the majority of the researchers mainly used Deep Learning tools for developing POS tagging models, which includes neural network architectures. The two best models according to the macro F1 score are the BiLSTM followed by a Dense layer (BiLSTM model) and the twolayer BiLSTM followed by a Dense Layer (MLBiLSTM model), which both perform with an F1 score equal to 0.79.
-
+Part-of-Speech (PoS) tagging is the task of labelling each word in a sentence with its appropriate part of speech; in the last years, the majority of researchers mainly used Deep Learning tools for developing POS tagging models, which include neural network architectures. In this assignment, we tested four different neural
+architectures (BiLSTM/ GRU + Dense Layers) for PoS tagging. One important aspect of this task was the embedding of OOVs words, which we handled by choosing the mean of the word context embeddings when it was possible. Finally, the two best models according to the macro F1 score were the BiLSTM followed by a Dense layer (BiLSTM model) and the two-layer BiLSTM followed by a Dense Layer (ML-BiLSTM model).
 In this folder you can find:
 - jupyter notebook with the models (BiLSTM, ML-BiLSTM, BiGRU, BiDense);
 - the PDF report of the work;
